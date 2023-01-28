@@ -11,14 +11,14 @@ export default defineNuxtConfig({
     },
   },
     modules: [
-        'nuxt-icon'
-  //     [
-  //       '@nuxtjs/robots',
-  //       {
-  //         UserAgent: "*",
-  //         Disallow: "",
-  //       }
-  //     ],
+        'nuxt-icon' , 
+      [
+        '@nuxtjs/robots',
+        {
+          UserAgent: "*",
+          Disallow: "",
+        }
+      ],
     ]  ,
   
     runtimeConfig : {
